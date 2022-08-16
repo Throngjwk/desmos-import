@@ -1,0 +1,210 @@
+{
+  "version": 9,
+  "randomSeed": "c38657e2e69225f139f5ec71a2304b74",
+  "graph": {
+    "viewport": {
+      "xmin": -10.009708737864077,
+      "ymin": -6.735593038752872,
+      "xmax": 9.990291262135923,
+      "ymax": 6.735593038752872
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "id": "12",
+        "type": "table",
+        "columns": [
+          {
+            "values": [
+              "a_1",
+              "a_2",
+              "a_3",
+              "a_1"
+            ],
+            "hidden": true,
+            "id": "13",
+            "color": "#2d70b3",
+            "latex": "x_{1}"
+          },
+          {
+            "values": [
+              "b_1",
+              "b_2",
+              "b_3",
+              "b_1"
+            ],
+            "id": "14",
+            "color": "#388c46",
+            "lines": true,
+            "latex": "y_{1}"
+          }
+        ]
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "color": "#388c46",
+        "latex": "\\left(a_1,b_1\\right)",
+        "showLabel": true,
+        "label": "A",
+        "dragMode": "XY",
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "color": "#2d70b3",
+        "latex": "a_1=0.73",
+        "hidden": true,
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "color": "#c74440",
+        "latex": "b_1=1.77",
+        "hidden": true,
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "color": "#388c46",
+        "latex": "\\left(a_2,b_2\\right)",
+        "showLabel": true,
+        "label": "B",
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "color": "#6042a6",
+        "latex": "a_2=-1.58",
+        "hidden": true,
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "color": "#fa7e19",
+        "latex": "b_2=1.38",
+        "hidden": true,
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "color": "#388c46",
+        "latex": "\\left(a_3,b_3\\right)",
+        "showLabel": true,
+        "label": "`#FF00FF`",
+        "dragMode": "Y",
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#2d70b3",
+        "latex": "a_{3}=4.5\\sqrt{4}",
+        "hidden": true,
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#c74440",
+        "latex": "b_3=2.02",
+        "hidden": true,
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "color": "#000000",
+        "latex": "\\frac{\\frac{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}+\\frac{\\frac{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}+\\frac{\\frac{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\frac{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}{\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|\\left|\\right|}}}}}}}",
+        "labelSize": "medium",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      }
+    ]
+  }
+}
